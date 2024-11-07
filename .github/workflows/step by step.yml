@@ -10,14 +10,14 @@ jobs:
         
         
   test_job:
-    needs: build-job
+    needs: build_job
     runs-on: ubuntu-latest
     steps:
     - name: Run many steps
       run: echo "test job"
 
   deplpy_job:
-    needs: test-job
+    needs: test_job
     runs-on: ubuntu-latest
     steps:
     - name: Run many steps

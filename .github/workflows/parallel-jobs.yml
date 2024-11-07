@@ -1,4 +1,4 @@
-name: CICD step by step
+name: CICD 
 on: push
 
 jobs:
